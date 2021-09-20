@@ -8,3 +8,6 @@ There are 2 pages
 
 All the pages need authentication to view them.
 New user can Register/Sign in.
+
+# Assigning
+It pics the best choice available iterating through prefs n schedule.
