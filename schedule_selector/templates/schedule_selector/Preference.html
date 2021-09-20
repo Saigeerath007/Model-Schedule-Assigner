@@ -1,0 +1,28 @@
+{% extends 'schedule_selector/AuthBase.html' %}
+{% block title %}Select{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="container py-5">
+
+    {% if filled %}
+
+        <h1>You have Alloted a Schedule Sucessfully</h1>
+
+
+    {% else %}
+    <form method="POST" action="">
+    {% csrf_token %}
+
+    <legend>Give your Preference</legend>
+
+    {{ form|crispy }}
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+        
+    </form>
+
+    </div>
+
+    {% endif %}
+{% endblock %}
