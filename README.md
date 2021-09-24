@@ -1,6 +1,6 @@
 # ScheduleMaker
 
-#Unable to upload next Part due to some git issues on pc.
+# Unable to upload next Part due to some git issues on pc.
 
 There is Timetable model which uses User as OnetoOne key for storing information of user.
 Schedule Selector is application for the project.
